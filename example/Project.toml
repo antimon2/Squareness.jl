@@ -1,0 +1,6 @@
+[compat]
+julia = "1"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Squareness = "88fc0333-e977-462d-825b-abd4ab783173"
