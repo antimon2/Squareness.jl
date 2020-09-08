@@ -25,6 +25,9 @@ function issquare_with_padic_newton(x::I) where {I <: Integer}
     xrt * xrt == x
 end
 
+isqrt(n::Integer) = Base.isqrt(n)
+isqrt(n::I) where {I<:Union{Int64, UInt64, Int128, UInt128}} = round(I, sqrt(n))
+
 function issquare_with_isqrt(x::Integer)
     if x < 0
         false
