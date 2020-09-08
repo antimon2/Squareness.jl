@@ -72,7 +72,7 @@ deps = ["LinearAlgebra", "Random"]
 uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[Squareness]]
-git-tree-sha1 = "8b28a7aa61abce9e4b102a1b1744b0073bde832f"
+git-tree-sha1 = "cc585826727ebd31f49436d337c72acfb93f21ab"
 repo-rev = "master"
 repo-url = ".."
 uuid = "88fc0333-e977-462d-825b-abd4ab783173"
